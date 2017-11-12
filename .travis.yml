@@ -1,0 +1,17 @@
+---
+sudo: required
+services:
+  - docker
+env:
+  - XMIND_VERSION=8.5 BUILD_TARGET=f26
+script:
+  - ./docker/build.sh $XMIND_VERSION $BUILD_TARGET
+deploy:
+  provider: releases
+  api_key:
+    secure: ""
+  file_glob: true
+  file: dist/*
+  skip_cleanup: true
+  on:
+    tags: true

@@ -11,7 +11,7 @@ deploy:
   api_key:
     secure: "P2guc1KX4pA8IbeqbQpvZBd/XqnmcnX5E9/qxqN2W73a5WaUUJoBEqJECsC1fxPlQHXgsUqw8NdOtoqJeGPKIZBp862GUkXHLf+djj+ZZgfeMj2nIiCxYHdkgZZr+wdQpeUrVhtuHiyqB63KEioX77mWe/5cZ4vU9YClt7911B0pICSfnV1WlNsURjnkACl6btFQy9ZBa1yv5GI/Inj8DmBEIE6tQP21lqgawzKD4PsZz3TEjz4pKnwPNfcje3irAZUbZN2LovOWhrDkO0dnTtUnggm2Pxrq6GdE+iDAz3KIubzHvxKnlsgeOv0621le3hz0hf3dF9f3BO+36jq8hi+FYLPSQQ2vhCa+kE8GEYJrWvtZ98hkts1xjCsoS0YYSjQlkUQXKrKHb87T/Fc2JYt8vXt3wxKvjHwafsoDpFeVqjseS+E0hWRvK4Pfecn1kEQQlsO7jIO6ChsPSDA8j3/YVa0IxU5zZD9GOw7oY/jOKUp+8MnKX+yUYDeUlBZ61CDGIEpWIkIZqrVLseqHIT48gVq6EIWDLD7RWID0H9XN1K77ZXWTF2pbrBS7KdLds54Ka6BushgYJqGkLdIXUsEAt6sIuyq6O7ckYr4uZqPY6F5/9Ovcp3efpvGmLNkB/Ke4l/SbWvQ9kL4T8B4O2SJ5+2dNKuRjcjdGKLVSiRU="
   file_glob: true
-  file: dist/*
+  file: docker/dist/*
   skip_cleanup: true
   on:
     tags: true

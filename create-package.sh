@@ -8,8 +8,8 @@ source basic-checks.sh # Checks that rpmbuild is available and that the script i
 
 rpm_dir="$PWD/RPMs"
 archive_name='xmind-linux.zip'
-version_number="${XMIND_VERSION:=8.5}"
-download_url="${XMIND_DOWNLOAD_URL:=http://dl2.xmind.net/xmind-downloads/xmind-8-update5-linux.zip}"
+version_number="${XMIND_VERSION:=8.6}"
+download_url="${XMIND_DOWNLOAD_URL:=http://dl2.xmind.net/xmind-downloads/xmind-8-update6-linux.zip}"
 
 icon_name="xmind-256.png"
 startsh_name="start-xmind.sh"
